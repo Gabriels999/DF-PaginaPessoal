@@ -1,0 +1,63 @@
+:root {
+  --primary: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: azure;
+  padding: 5% 0;
+}
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+.container {
+  padding: 0 5%;
+}
+.navbar {
+  display: flex;
+  list-style: none;
+  gap: 5%;
+}
+.about {
+  padding-top: 4%;
+}
+.about > img {
+  float: left;
+  width: 40%;
+  margin-right: 3%;
+  margin-bottom: 1%;
+}
+.linhatempo {
+  padding: 10% 0%;
+  /* height: 400px;
+  background-color: #c45656; */
+}
+.linhatempo > h3 {
+  display: flex;
+  justify-content: center;
+}
+.tempoA {
+  background-color: #afa8a8;
+  padding: 3% 0;
+}
+.tempoB {
+  background-color: bisque;
+}
+.space {
+  padding: 4% 0;
+}
+.projetos > h3 {
+  display: flex;
+  justify-content: center;
+}
+.linha > div > img {
+  width: 100%;
+}
