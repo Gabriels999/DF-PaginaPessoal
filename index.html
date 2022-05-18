@@ -9,19 +9,19 @@
   </head>
   <body>
     <header>
-      <a href="">
-        <img src="logo.png" alt="Logo Gabriel" />
-      </a>
       <ul class="navbar">
-        <a href="">
-          <li>Home</li>
-        </a>
-        <a href="">
-          <li>Projetos</li>
-        </a>
-        <a href="">
-          <li>Contatos</li>
-        </a>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#timeline"> História </a>
+        </li>
+        <li>
+          <a href="#projects"> Projetos </a>
+        </li>
+        <li>
+          <a href="#contacts"> Contatos </a>
+        </li>
       </ul>
     </header>
     <div class="container">
@@ -42,7 +42,7 @@
         <a href="" class="center space">Entrar em contato</a>
       </div>
       <section class="timeline">
-        <h3 class="space center">Linha do Tempo</h3>
+        <h3 class="space center">História</h3>
         <div class="time-row">
           <h5>2016</h5>
           <div class="tempoA space">
@@ -50,7 +50,7 @@
             Universidade Federal do Rio de Janeiro.
           </div>
         </div>
-        <div class="time-row">
+        <div class="time-row year-right">
           <h5>2017</h5>
           <div class="tempoB space">
             Em 2017 eu comecei a integrar a equipe de um projeto de extensão que
@@ -71,7 +71,7 @@
             nenhum dos que tentaram aquela prova passou.
           </div>
         </div>
-        <div class="time-row">
+        <div class="time-row year-right">
           <h5>2018.2</h5>
           <div class="tempoB space">
             Depois de ter visto estilos de vida completamente diferentes do meu
@@ -89,7 +89,7 @@
             inspiraram/apoiaram a tentar.
           </div>
         </div>
-        <div class="time-row">
+        <div class="time-row year-right">
           <h5>2022</h5>
           <div class="tempoB space">
             Em 2022 eu já tinha saído do meu trabalho atual para me dedicar
@@ -100,7 +100,7 @@
         </div>
       </section>
       <section class="projects">
-        <h3 class="space center">Projetos</h3>
+        <h3 id="projects" class="space center">Projetos</h3>
         <div class="projects-field">
           <div class="project-row">
             <div>
@@ -109,15 +109,17 @@
             <div>
               <img src="./img/marvelflix.png" alt="Projeto Marvelflix" />
             </div>
-            <div>
-              <img src="./img/table.png" alt="Projeto Table" />
-            </div>
           </div>
           <div class="project-row">
             <div>
-              <img src="./img/order.png" alt="Projeto Order" />
+              <img src="./img/table.png" alt="Projeto Table" />
             </div>
             <div>
+              <img src="./img/order.png" alt="Projeto Order" />
+            </div>
+          </div>
+          <div class="project-row">
+            <div class="img-buser">
               <img src="./img/buser.png" alt="Projeto buser" />
             </div>
             <img src="" alt="" />
@@ -127,7 +129,7 @@
     </div>
     <footer>
       <div class="icon-field">
-        <h3 class="space center">Contatos</h3>
+        <h3 id="contacts" class="space center">Contatos</h3>
         <ul>
           <li>
             <a href="https://github.com/Gabriels999" target="blank">
