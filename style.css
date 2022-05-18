@@ -81,9 +81,17 @@ a {
   border: 2px dashed var(--secondary);
   padding-left: 2%;
 }
+.tempoA:hover {
+  background-color: var(--secondary);
+  color: #fff;
+}
 .tempoB {
   border: 2px dashed var(--secondary);
   padding-left: 2%;
+}
+.tempoB:hover {
+  background-color: var(--secondary);
+  color: #fff;
 }
 .year-right {
   flex-direction: row-reverse;
@@ -91,6 +99,9 @@ a {
 .project-row > div > img {
   width: 100%;
   border: 1px solid #dbd7d7;
+}
+.project-row > div:hover {
+  transition: width 0.6 ease-in-out;
 }
 .img-buser {
   width: 50% !important;
@@ -113,7 +124,13 @@ footer {
 @media screen and (min-width: 768px) {
   .about > a {
     max-width: 75%;
-    margin: 10% auto 0;
+    margin: 20% auto 0;
+    display: block;
+    padding-left: 16%;
+    width: 30%;
+  }
+  .about > p {
+    padding-top: 10%;
   }
   .timeline {
     padding: 5%;
