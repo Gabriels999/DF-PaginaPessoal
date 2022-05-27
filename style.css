@@ -149,6 +149,25 @@ header > div {
 .year-right {
   flex-direction: row-reverse;
 }
+.skill {
+  padding: 1.5% 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.skill-section > h3 {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+}
+.skill > label {
+  font-size: large;
+}
+.skill > progress {
+  width: 100%;
+  accent-color: var(--primary);
+}
 .project-row > div > a > img {
   width: 100%;
   border: 1px solid #dbd7d7;
